@@ -1,0 +1,32 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family:  sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box ;
+}
+
+.app {
+  display: flex ;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spinnerload {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 42%;
+  top: 100%;
+}
+
+.arrow-post {
+  position: relative !important;
+  left: 1200px;
+}
